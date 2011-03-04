@@ -6,5 +6,5 @@ var config = {
   cloudId: '12345'
 }
 
-var client = panda.Client(config);
+var client = panda.createClient(config);
 client.get('/profiles.json');
