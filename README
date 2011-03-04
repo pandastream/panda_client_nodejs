@@ -7,4 +7,6 @@ var config = {
 }
 
 var client = panda.createClient(config);
-client.get('/profiles.json');
+client.get('/profiles.json', {}, function(p){
+	console.log(p[0].id)
+});
