@@ -4,7 +4,7 @@
   "directories": {
     "lib": "./lib/panda"
   },
-  "main": "./lib/panda/panda",
+  "main": "./lib/panda/index",
   "dependencies": {},
   "devDependencies": {
       "gently": ">= 0.9.0",
