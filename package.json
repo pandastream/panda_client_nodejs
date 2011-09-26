@@ -6,8 +6,12 @@
   },
   "main": "./lib/panda/panda",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+      "gently": "0.8.0",
+      "jasmine-node": "1.0.10"
+  },
   "engines": {
     "node": "*"
-  }
+  },
+  "licenses" : [ { "type" : "MIT" } ]
 }
