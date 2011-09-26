@@ -7,8 +7,8 @@
   "main": "./lib/panda/panda",
   "dependencies": {},
   "devDependencies": {
-      "gently": "0.8.0",
-      "jasmine-node": "1.0.10"
+      "gently": ">= 0.9.0",
+      "jasmine-node": ">= 1.0.10"
   },
   "engines": {
     "node": "*"
