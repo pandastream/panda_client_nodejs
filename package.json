@@ -1,0 +1,13 @@
+{
+  "name": "panda",
+  "version": "0.1.0",
+  "directories": {
+    "lib": "./lib/panda"
+  },
+  "main": "./lib/panda/panda",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

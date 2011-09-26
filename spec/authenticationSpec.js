@@ -1,6 +1,5 @@
 var gently = global.GENTLY = new (require('gently'))
-var auth = require('../lib/api_authentication');
-var panda = require('../lib/panda')
+var panda = require('panda')
 
 var timestamp_string = "2011-09-26T09:35:57-04:00"
 var timestamp = new Date(Date.parse(timestamp_string))
