@@ -1,13 +1,6 @@
 var gently = global.GENTLY = new (require('gently'))
 var panda = require('panda')
 
-var timestamp_string = "2011-09-26T09:35:57-04:00"
-var timestamp = new Date(Date.parse(timestamp_string))
-
-global.Date = function(){
-  return timestamp
-}
-
 describe('authentication', function(){
   it('should get profiles', function(){
 
