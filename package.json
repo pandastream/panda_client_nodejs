@@ -1,6 +1,6 @@
 {
   "name": "panda",
-  "version": "0.1.0",
+  "version": "0.1.22",
   "directories": {
     "lib": "./lib/panda"
   },
