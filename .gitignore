@@ -1,2 +1,4 @@
 # ignore configuration used for testing
 test/config.json
+# ignore built releases
+*.tgz
