@@ -5,13 +5,19 @@
     "lib": "./lib/panda"
   },
   "main": "./lib/panda/index",
-  "dependencies": {},
+  "dependencies": {
+    "form-data": "^0.1.4"
+  },
   "devDependencies": {
-      "gently": ">= 0.9.0",
-      "jasmine-node": ">= 1.0.10"
+    "gently": ">= 0.9.0",
+    "jasmine-node": ">= 1.0.10"
   },
   "engines": {
     "node": "*"
   },
-  "licenses" : [ { "type" : "MIT" } ]
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
 }

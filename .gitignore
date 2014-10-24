@@ -2,3 +2,4 @@
 test/config.json
 # ignore built releases
 *.tgz
+node_modules
